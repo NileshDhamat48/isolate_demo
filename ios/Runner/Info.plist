@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSAppTransportSecurity</key>
+        <dict>
+    <key>NSAllowsArbitraryLoads</key><true/>
+        </dict>
+        <key>FDMaximumConcurrentTasks</key>
+        <integer>5</integer>
+        <key>FDAllFilesDownloadedMessage</key>
+        <string>All files have been downloaded</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>uploadBackground</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Trail Vault</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>trail_vault</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Need BLE permission</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Need BLE permission</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Trail Vault lets you select contacts to share your rides and other data with</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Trail Vault needs access to your location both while you use the app and when it's running in the background. This allows for continuous tracking of your rides and accurate route mapping throughout your journey.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Trail Vault requires access to your location at all times to continuously track your rides and provide accurate route information, even when the app is running in the background.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Trail Vault needs access to your location only while you use the app to provide real-time tracking of your rides and record your journey details.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+	<string>Trail vault will load photos and videos taken during a ride and mark them on the ride map</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Trail vault will capture photos during a ride and mark them on the ride map</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>Trail vault will capture videos during a ride and mark them on the ride map</string>
+
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+
+	<true/>
+
+	<key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleIdentifier</key>
+            <string></string>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>app-1-22422496521-ios-f73724ea7e31817c201fd8</string>
+            </array>
+        </dict>
+    </array>
+
+</dict>
+</plist>
